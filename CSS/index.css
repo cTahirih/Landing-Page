@@ -1,107 +1,621 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-  }
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-image: linear-gradient(rgba(60, 34, 70, 0.7), rgba(4, 9, 30, 0.7)),
+    url("https://brucelhartman.com/wp-content/uploads/2019/02/Glorious-blue-mountain-range.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.logo {
+  color: white;
+  font-size: 33px;
+  line-height: 80px;
+  padding: 0 70px;
+  font-weight: bold;
+}
+
+.log {
+  color: white;
+  text-decoration: none;
+}
+.log:hover {
+  background: none;
+}
+.navbar {
+  background-color: none;
+  height: 80px;
+  width: 100%;
+}
+
+.navbar ul {
+  float: right;
+  overflow: auto;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.navbar li {
+  margin-right: 20px;
+  float: left;
+  list-style: none;
+  color: white;
+  margin: 17px 23px;
+}
+.navbar li a {
+  padding: 4px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Open-sans";
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+a:hover {
+  background: rgb(80, 98, 126);
+  opacity: 80%;
+}
+
+.btn {
+  float: right;
+  margin-top: 100px;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 34px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn1 {
+  text-decoration: none;
+  color: black;
+}
+.btn1:hover {
+  background: none;
+}
+
+.container {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.container h3 {
+  word-spacing: 5px;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p {
+  margin: 20px 0 40px;
+
+  font-size: 14px;
+  color: white;
+}
+
+.know-more {
+  border: 2px solid white;
+  background: none;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+}
+
+.know-more:hover {
+  color: #ffffff !important;
+  background: rgb(80, 98, 126);
+  border-color: rgb(80, 98, 126);
+  transition: all 0.4s ease 0s;
+}
+.know-more2 {
+  border: 2px solid white;
+  background: none;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  margin-left: 33px;
+}
+
+.know-more2:hover {
+  color: #ffffff !important;
+  background: rgb(80, 98, 126);
+  border-color: rgb(80, 98, 126);
+  transition: all 0.4s ease 0s;
+}
+
+.header-about-me {
+  display: flex;
+  margin: 10px 45px;
+  max-width: 100%;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+.first {
+  width: 80%;
+  float: left;
+  text-align: left;
+  padding: 60px 0px;
+  margin: 0px 10px;
+}
+
+.right-img {
+  height: 200px;
+  width: 350px;
+  padding: 0px 60px;
+}
+
+.about-me {
+  width: 100%;
+}
+
+.about-me h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #2b9ec2;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mywork {
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  height: 100vh;
+  width: 100%;
+  min-width: 600px;
+  background-image: linear-gradient(rgba(60, 34, 70, 0.7), rgba(4, 9, 50, 0.7)),
+    url("blog.jpg");
+  /*https://wallpaperaccess.com/full/2906429.jpg*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 6 00;
+  color: white;
+}
+
+.p-blog {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.blog-cols {
+  flex-basis: 29%;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 3%;
+  box-shadow: 0px 0px 70px 2px rgba(51, 90, 163, 0.637);
+}
+
+.blog-cols img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  height: 43%;
+  width: 28%;
+}
+
+.blog-cols p {
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  font-size: 15px;
+  color: white;
+}
+
+.blog-cols h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.blog-cols:hover {
+  box-shadow: 10px 10px 50px 2px rgba(51, 90, 163, 0.637);
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+  height: 100vh;
+  width: 100%;
+  /*background-image: url("https://logic-designs.ae/wp-content/uploads/2018/12/contact-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  position: relative;
+}
+.h1-contact {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2b9ec2;
+}
+
+.fa-bars::before {
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans";
+  padding: 20px 20px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer-rows {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-bottom: 1px solid white;
   
-  .header {
-    background-image: linear-gradient(rgba(60, 34, 70, 0.7), rgba(4, 9, 30, 0.7)),
-      url("https://brucelhartman.com/wp-content/uploads/2019/02/Glorious-blue-mountain-range.jpg");
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+}
+
+.footer-cols {
+  flex-basis: 20%;
+  padding: 10px;
+}
+
+.footer-cols h3 {
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+ul li {
+  font-family: "poppins", "sans-sarif";
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease 0s;
+}
+
+.footer-cols ul li a:hover{
+  background: none;
+  border-bottom: 1px solid white;
+  transition: all 1s ease 0s;
+}
+
+form{
+  padding-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+}
+
+form .fa{
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+
+form input{
+  background: transparent;
+  outline: none;
+  border: 0;
+  color: white;
+  width: 100%;
+ 
+}
+
+form button{
+  background: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+form button .fa{
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.socials {
+  margin-top: 50px;
+}
+.socials .fa {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  line-height: 40px;
+  padding: 2px;
+  margin-right: 30px;
+}
+
+.socials a:hover {
+  background: none;
+}
+
+@media screen and (max-width: 875px) {
+  h3 {
+    font-size: 14px;
   }
-  .logo {
-    color: white;
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    line-height: 82px;
-    padding: 0 70px;
-    font-weight: bold;
-  }
-  
-  .log {
-    color: white;
-    text-decoration: none;
-  }
-  .log:hover {
-    background: none;
+
+  .navbar li {
+    display: block;
+    text-align: center;
+    margin-right: 51px;
   }
   .navbar {
-    background-color: none;
-    height: 80px;
+    position: absolute;
+    background: rgb(26, 25, 34);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    border-radius: 2px;
+    transition: 0.5s;
+  }
+
+  nav .fa {
+    color: white;
+    display: block;
+    margin: 10px;
+  }
+
+  .header-about-me {
+    flex-direction: column;
+    margin: 0px 45px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .first {
+    width: 80%;
+    float: left;
+    text-align: left;
+    padding: 60px 0px;
+    margin: 0px 10px;
+  }
+  .right-img {
+    height: 200px;
+    width: 350px;
+    padding: 0px 60px;
+  }
+
+  .mywork {
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .p-blog {
+    margin: auto;
+    width: 80%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .blog-cols {
+    flex-basis: 31%;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-sizing: border-box;
+  }
+  .blog-cols img {
+    border-radius: 10px;
+  }
+
+  img {
+    height: 70%;
+    width: 50%;
+  }
+
+  .blog-cols p {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .blog-cols h3 {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 490px;
+    height: 80vh;
     width: 100%;
   }
-  
-  .navbar ul {
-    float: right;
-    overflow: auto;
-    margin-right: 20px;
-    margin-top: 15px;
-  }
-  
-  .navbar li {
-    margin-right: 20px;
-    float: left;
-    list-style: none;
+
+  .fa::before {
     color: white;
-    margin: 17px 23px;
+    font-size: 20px;
+    display: block;
   }
-  .navbar li a {
-    padding: 4px 20px;
+  .fa-bars {
+    margin-left: 317px;
+    margin-top: 25px;
+    padding-right: 15px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans";
+    padding: 20px 20px;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  
+  .footer-rows {
+    display: flex;
+    margin: auto; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    
+  }
+  
+  .footer-cols {
+    flex-basis: 20%;
+    padding: 10px;
+  }
+  
+  .footer-cols h3 {
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 5px;
+  }
+  
+  ul li {
+    font-family: "poppins", "sans-sarif";
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  
+  ul li a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
-    font-family: "Open-sans";
-    text-transform: uppercase;
-    border-radius: 3px;
+    transition: all 1s ease 0s;
   }
   
-  a:hover {
-    background: rgb(80, 98, 126);
-    opacity: 80%;
-  }
-  
-
-  .container {
-    width: 90%;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-  
-  .container h3 {
-    word-spacing: 5px;
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .container p {
-    margin: 20px 0 40px;
-  
-    font-size: 14px;
-    color: white;
-  }
-  
-  .know-more {
-    border: 2px solid white;
+  .footer-cols ul li a:hover{
     background: none;
-    padding: 12px;
-    margin: 15px;   
+    border-bottom: 1px solid white;
+    transition: all 1s ease 0s;
+  }
+  
+  form{
+    padding-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+  }
+  
+  form .fa{
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  
+  
+  form input{
+    background: transparent;
+    outline: none;
+    border: 0;
     color: white;
-    font-size: 14px;
+    width: 100%;
+   
   }
   
-  .know-more:hover {
-    color: #ffffff !important;
-    background: rgb(80, 98, 126);
-    border-color: rgb(80, 98, 126);
-    transition: all 0.4s ease 0s;
+  form button{
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
   }
   
+  form button .fa{
+    color: white;
+    font-size: 16px;
+  }
+  
+  
+  
+  .socials {
+    margin-top: 50px;
+  }
+  .socials .fa {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    line-height: 40px;
+    padding: 2px;
+    margin-right: 30px;
+  }
+  
+  .socials a:hover {
+    background: none;
+  }
+}
