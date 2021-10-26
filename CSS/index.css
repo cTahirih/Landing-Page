@@ -4,6 +4,21 @@
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.image-right {
+  width: 400px;
+  height: auto;
+}
+
 .header {
   background-image: linear-gradient(rgba(60, 34, 70, 0.7), rgba(4, 9, 30, 0.7)),
     url("https://brucelhartman.com/wp-content/uploads/2019/02/Glorious-blue-mountain-range.jpg");
@@ -142,18 +157,15 @@ a:hover {
 
 .header-about-me {
   display: flex;
-  margin: 10px 45px;
+  margin: 10px;
   max-width: 100%;
   align-items: center;
-  height: 100vh;
-  padding: 15px;
+  padding: 0 15px;
 }
 .first {
   width: 80%;
-  float: left;
-  text-align: left;
-  padding: 60px 0px;
-  margin: 0px 10px;
+  padding: 15px 0;
+  margin: 0;
 }
 
 .right-img {
@@ -170,7 +182,6 @@ a:hover {
   text-align: center;
   font-size: 30px;
   color: #2b9ec2;
-  margin-top: 50px;
   padding-top: 50px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -286,7 +297,6 @@ footer {
   bottom: 0;
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
-  width: 100%;
   height: auto;
   font-family: "Open Sans";
   padding: 20px 20px;
@@ -427,11 +437,9 @@ form button .fa{
     align-items: center;
   }
   .first {
-    width: 80%;
-    float: left;
-    text-align: left;
-    padding: 60px 0px;
-    margin: 0px 10px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 10px;
   }
   .right-img {
     height: 200px;
