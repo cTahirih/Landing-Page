@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nav Bar</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/index.css">
+    <title>Web</title>
+
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 </head>
 
 <body>
@@ -18,26 +20,137 @@
 
     <section id="top" class="header">
         <nav class="navbar" id="bar">
-            <label class="logo"><a href="index.html" class="log">Divyaant  Kumar Jain</a></label>
+            <label class="logo"><a href="Web.html" class="log">Blog</a></label>
 
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#about-me">About</a></li>
-                <li><a href="#my-work">Blog</a></li>
+                <li><a href="#my-work">Blogs</a></li>
                 <li><a href="#a-contact">Contact Me</a></li>
 
             </ul>
         </nav>
- 
+        <i class="fa fa-bars" onclick="showmenu()"></i>
         <div class="container">
-            <h3>Welcome to My Page</h3>
+            <h3>Welcome to My Website</h3>
             <p>Making webiste is one of the most interesting and easiest things in the world. You just need to learn
-                <br> HTML, CSS, Javascript and some back-end and you are good to go.
+                <br> HTML, CSS, Javascript and you are good to go.
             </p>
             <button class="know-more">Know More</button>
-            <button class="know-more">Know More 2</button>
-
+            <button class="know-more2">Know More 2</button>
         </div>
     </section>
+    <br>
+    <div class="about-me">
+        <h3 id="about-me" class="underline">About Me</h3>
+    </div>
+    <section class="header-about-me">
+        <p class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, corrupti quia! Animi
+            repudiandae
+            earum consequuntur laborum exercitationem officiis accusamus, dolore perferendis accusantium
+            ducimus
+            debitis excepturi maiores, architecto repellendus inventore nesciunt quo asperiores officia
+            magni
+            deserunt beatae reiciendis velit voluptatem aspernatur. Repellat, exercitationem voluptatem
+            ipsum
+            accusamus consectetur repudiandae ducimus? Quia repellat adipisci nam ullam doloribus. Nesciunt
+            minus ullam atque ad deleniti!
+        </p>
+
+        <div class="image-right">
+            <img src="https://st2.depositphotos.com/1032577/5312/i/950/depositphotos_53128333-stock-photo-about-me-sign.jpg"
+                alt="About Me" class="right-img">
+        </div>
+        </div>
+    </section>
+
+    <section class="mywork" id="my-work">
+        <h1 id="my-blog">My Blogs</h1>
+        <p class="p-blog">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, ipsam!</p>
+        <div class="row">
+            <div class="blog-cols">
+                <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/01/Intelligent-Analysis.jpg">
+                <h3>Artificial Intelligence</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore ducimus
+                    necessitatibus?
+                    Voluptatibus, aut quam maiores debitis reiciendis odit architecto ullam in fugit fugiat porro.
+                    Aliquid dolorem nulla fugiat odio.</p>
+            </div>
+            <div class="blog-cols">
+                <img
+                    src="https://blogs.iadb.org/ideas-matter/wp-content/uploads/sites/12/2020/06/big-data-gobiernos-Ame%CC%81rica-Latina-Caribe-movilidad-privacidad-COVID-19-coronavirus-min.jpg">
+                <h3>Big-Data</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore ducimus
+                    necessitatibus?
+                    Voluptatibus, aut quam maiores debitis reiciendis odit architecto ullam in fugit fugiat porro.
+                    Aliquid dolorem nulla fugiat odio.</p>
+            </div>
+            <div class="blog-cols">
+                <img src="https://www.einfochips.com/blog/wp-content/uploads/2018/11/how-to-develop-machine-learning-applications-for-business-featured.jpg"
+                    alt="">
+                <h3>Machine Learning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore ducimus
+                    necessitatibus?
+                    Voluptatibus, aut quam maiores debitis reiciendis odit architecto ullam in fugit fugiat porro.
+                    Aliquid dolorem nulla fugiat odio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="a-contact">
+        <h1 id="contact-me" class="h1-contact">Contact Me</h1>
+
+    </section>
+
+
+    <footer>
+        <div class="footer-rows">
+            <div class="footer-cols">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#my-work">Blogs</a></li>
+                    <li><a href="#a-contact">Contact-Me</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-cols">
+                <h3>Newsletter</h3>
+
+                <form>
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                </form>
+
+                <div class="socials">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+            </div>
+            <div class="footer-cols">
+
+                <div>
+                    <button class="btn"><a href="#top" class="btn1">Back To Top</a></button>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script>
+        var bar = document.getElementById("bar");
+
+        function showmenu() {
+            bar.style.right = "0";
+        }
+    </script>
+
+
+
+
 </body>
+
 </html>
